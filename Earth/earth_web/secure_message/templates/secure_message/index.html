@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Earth Secure Messaging</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+<h1 class="aligncenter">Earth Secure Messaging Service</h1>
+<div class="aligncenter">
+<img src="{% static 'earth1.jpg' %}" alt="Picture of Earth" width="400" height="400">
+</div>
+<form action="/" method="post">
+    <label for="message">Send your message to Earth:</label>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Send message">
+</form>
+Previous Messages:
+<ul>
+{% for previous_message in previous_messages %}
+<li>{{previous_message.message}}</li>
+{% endfor %}
+</ul>
+</body>
+</html>

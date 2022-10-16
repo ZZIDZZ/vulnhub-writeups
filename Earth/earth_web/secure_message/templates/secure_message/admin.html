@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Earth Secure Messaging Admin</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+<h1 class="aligncenter"> Admin Command Tool </h1>
+{% if user.is_authenticated %}
+<a class="positionright" href="{% url 'logout' %}">Log Out</a>
+Welcome {{ user.username }}, run your CLI command on Earth Messaging Machine (use with care).
+<br />
+<form action="/admin/" method="post" >
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Run command">
+</form>
+<p>
+Command output: {{cmd_output}}
+</p>
+{% else %}
+You are not logged in. Please: <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+</body>
+</html>

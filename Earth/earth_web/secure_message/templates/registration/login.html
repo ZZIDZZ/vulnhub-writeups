@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Earth Secure Messaging Admin</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+<h1 class="aligncenter">Log In</h1>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">Log In</button>
+</form>
+</body>
+</html>

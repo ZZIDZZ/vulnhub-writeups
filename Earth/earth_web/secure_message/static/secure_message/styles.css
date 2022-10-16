@@ -1,0 +1,19 @@
+.aligncenter {
+    text-align: center;
+}
+.alignright {
+    text-align: right;
+}
+label {
+    display:block;
+}
+.positionright {
+    float:right;
+}
+* {
+    font-size: 100%;
+    font-family: Courier New, monospace, serif;
+}
+h1 {
+    font-size: 200%;
+}
