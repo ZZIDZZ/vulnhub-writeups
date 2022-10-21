@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://10.0.2.8/jabc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>JABC</title>
+ <link>http://10.0.2.8/jabc</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Home</title>
+ <link>http://10.0.2.8/jabc/?q=node/1</link>
+ <description><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2 class="rtecenter"><strong>Welcome to JABC !</strong></h2>
+<h3 class="rtecenter">Your world leader in Bioware</h3>
+<p> </p>
+<hr /><p class="rtecenter">What is JABC NOT?</p>
+<p class="rtecenter">Human with a bit of technology</p>
+<p class="rtecenter"> </p>
+<p class="rtecenter">What is JABC?</p>
+<p class="rtecenter">Technology with a bit of human</p>
+<hr /><p class="rtecenter"> </p>
+<p> </p>
+<p><strong>We provide state-of-the-art A.I. for industrial espionage purposes. ORDER  NOW !!</strong></p>
+<p class="rteleft"> </p>
+</div></div></div></description>
+ <pubDate>Sat, 16 Apr 2016 13:52:35 +0000</pubDate>
+ <dc:creator>webmin</dc:creator>
+ <guid isPermaLink="false">1 at http://10.0.2.8/jabc</guid>
+ <comments>http://10.0.2.8/jabc/?q=node/1#comments</comments>
+</item>
+</channel>
+</rss>

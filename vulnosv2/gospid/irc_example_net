@@ -1,0 +1,58 @@
+[url] - [code-200] - http://irc.example.net
+[url] - [code-200] - http://irc.example.net
+[robots] - http://irc.example.net/includes/
+[robots] - http://irc.example.net/misc/
+[robots] - http://irc.example.net/modules/
+[robots] - http://irc.example.net/profiles/
+[robots] - http://irc.example.net/scripts/
+[robots] - http://irc.example.net/themes/
+[robots] - http://irc.example.net/CHANGELOG.txt
+[robots] - http://irc.example.net/cron.php
+[robots] - http://irc.example.net/INSTALL.mysql.txt
+[robots] - http://irc.example.net/INSTALL.pgsql.txt
+[robots] - http://irc.example.net/INSTALL.sqlite.txt
+[robots] - http://irc.example.net/install.php
+[robots] - http://irc.example.net/INSTALL.txt
+[robots] - http://irc.example.net/LICENSE.txt
+[robots] - http://irc.example.net/MAINTAINERS.txt
+[robots] - http://irc.example.net/update.php
+[robots] - http://irc.example.net/UPGRADE.txt
+[robots] - http://irc.example.net/xmlrpc.php
+[robots] - http://irc.example.net/admin/
+[robots] - http://irc.example.net/comment/reply/
+[robots] - http://irc.example.net/filter/tips/
+[robots] - http://irc.example.net/node/add/
+[robots] - http://irc.example.net/search/
+[robots] - http://irc.example.net/user/register/
+[robots] - http://irc.example.net/user/password/
+[robots] - http://irc.example.net/user/login/
+[robots] - http://irc.example.net/user/logout/
+[robots] - http://irc.example.net/?q=admin/
+[robots] - http://irc.example.net/?q=comment/reply/
+[robots] - http://irc.example.net/?q=filter/tips/
+[robots] - http://irc.example.net/?q=node/add/
+[robots] - http://irc.example.net/?q=search/
+[robots] - http://irc.example.net/?q=user/password/
+[robots] - http://irc.example.net/?q=user/register/
+[robots] - http://irc.example.net/?q=user/login/
+[robots] - http://irc.example.net/?q=user/logout/
+[url] - [code-200] - http://irc.example.net/?q=admin/
+[url] - [code-200] - http://irc.example.net/?q=user/login/
+[url] - [code-200] - http://irc.example.net/?q=comment/reply/
+[url] - [code-200] - http://irc.example.net/?q=filter/tips/
+[url] - [code-200] - http://irc.example.net/?q=node/add/
+[url] - [code-200] - http://irc.example.net/?q=search/
+[url] - [code-200] - http://irc.example.net/?q=user/password/
+[url] - [code-200] - http://irc.example.net/?q=user/register/
+[url] - [code-200] - http://irc.example.net/?q=user/logout/
+[subdomains] - irc.example.net
+[url] - [code-200] - http://irc.example.net/jabc/
+[javascript] - http://irc.example.net/jabc/misc/jquery.js?v=1.4.4
+[javascript] - http://irc.example.net/jabc/misc/jquery.once.js?v=1.2
+[javascript] - http://irc.example.net/jabc/misc/drupal.js?o5slyk
+[javascript] - http://irc.example.net/jabc/sites/all/themes/black/js/jquery.mobilemenu.js?o5slyk
+[linkfinder] - [from: http://irc.example.net/jabc/misc/jquery.js?v=1.4.4] - text/javascript
+[linkfinder] - [from: http://irc.example.net/jabc/misc/jquery.js?v=1.4.4] - application/x-www-form-urlencoded
+[linkfinder] - [from: http://irc.example.net/jabc/misc/jquery.js?v=1.4.4] - text/html
+[linkfinder] - [from: http://irc.example.net/jabc/misc/jquery.js?v=1.4.4] - text/plain
+[url] - [code-200] - http://irc.example.net
